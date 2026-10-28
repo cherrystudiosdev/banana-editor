@@ -1,0 +1,37 @@
+name: Bug report
+description: Report reproducible behavior in Banana Editor.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: Do not include API keys, private media, personal paths or sensitive logs. Security reports belong in the private channel described in SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Windows version and architecture
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Use a minimal project or synthetic media when possible.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Safe diagnostic evidence
+      description: Include relevant codec, FPS, error message and whether the app was packaged. Redact personal information.

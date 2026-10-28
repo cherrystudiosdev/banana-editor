@@ -1,0 +1,16 @@
+import { mkdir, copyFile, writeFile } from 'node:fs/promises';
+import sharp from 'sharp';
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 40 40"><rect width="40" height="40" rx="12" fill="#f4dc54"/><path d="M10 13c2 10 10 15 21 10-4 9-13 12-20 5-4-4-5-10-1-15Z" fill="#202116"/><path d="m28 20 4-3 2 3-3 4" fill="#202116"/></svg>`;
+await mkdir('public/fonts', { recursive: true });
+await mkdir('resources', { recursive: true });
+await copyFile('resources/fonts/NotoSans-Regular.ttf', 'public/fonts/NotoSans-Regular.ttf');
+await writeFile('resources/logo.svg', svg);
+await writeFile('public/logo.svg', svg);
+const png = await sharp(Buffer.from(svg)).png().toBuffer();
+await writeFile('resources/icon.png', png);
+const header = Buffer.alloc(22);
+header.writeUInt16LE(1, 2); header.writeUInt16LE(1, 4);
+header[6] = 0; header[7] = 0;
+header.writeUInt16LE(1, 10); header.writeUInt16LE(32, 12);
+header.writeUInt32LE(png.length, 14); header.writeUInt32LE(22, 18);
+await writeFile('resources/icon.ico', Buffer.concat([header, png]));

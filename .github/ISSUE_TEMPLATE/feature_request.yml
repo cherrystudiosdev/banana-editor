@@ -1,0 +1,22 @@
+name: Feature request
+description: Explain an editing workflow that needs improvement.
+title: "[Feature] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Editing problem
+      description: Describe the concrete workflow and who it affects.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Desired behavior
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and examples
+      description: Use public references or original examples. Do not share confidential projects.

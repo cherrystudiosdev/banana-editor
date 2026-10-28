@@ -1,0 +1,573 @@
+{
+  "generated": "2026-10-28",
+  "scope": "Installed production dependency graph plus Electron; not an FFmpeg or native transitive SBOM",
+  "packages": [
+    {
+      "name": "@electron-internal/extract-zip",
+      "version": "1.0.6",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/electron-internal__extract-zip-1.0.6/LICENSE"
+      ],
+      "repository": "https://github.com/electron/extract-zip"
+    },
+    {
+      "name": "@electron/get",
+      "version": "5.1.0",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/electron__get-5.1.0/LICENSE"
+      ],
+      "repository": "https://github.com/electron/get"
+    },
+    {
+      "name": "@google/genai",
+      "version": "2.31.0",
+      "license": "Apache-2.0",
+      "licenses": [
+        "third-party-licenses/google__genai-2.31.0/LICENSE"
+      ],
+      "repository": "https://github.com/googleapis/js-genai.git"
+    },
+    {
+      "name": "@img/colour",
+      "version": "1.1.0",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/img__colour-1.1.0/LICENSE.md"
+      ],
+      "repository": "git+https://github.com/lovell/colour.git"
+    },
+    {
+      "name": "@img/sharp-win32-x64",
+      "version": "0.35.5",
+      "license": "Apache-2.0 AND LGPL-3.0-or-later",
+      "licenses": [
+        "third-party-licenses/img__sharp-win32-x64-0.35.5/LICENSE"
+      ],
+      "repository": "git+https://github.com/lovell/sharp.git"
+    },
+    {
+      "name": "@protobufjs/aspromise",
+      "version": "1.1.2",
+      "license": "BSD-3-Clause",
+      "licenses": [
+        "third-party-licenses/protobufjs__aspromise-1.1.2/LICENSE"
+      ],
+      "repository": "https://github.com/dcodeIO/protobuf.js.git"
+    },
+    {
+      "name": "@protobufjs/base64",
+      "version": "1.1.2",
+      "license": "BSD-3-Clause",
+      "licenses": [
+        "third-party-licenses/protobufjs__base64-1.1.2/LICENSE"
+      ],
+      "repository": "https://github.com/dcodeIO/protobuf.js.git"
+    },
+    {
+      "name": "@protobufjs/codegen",
+      "version": "2.0.5",
+      "license": "BSD-3-Clause",
+      "licenses": [
+        "third-party-licenses/protobufjs__codegen-2.0.5/LICENSE"
+      ],
+      "repository": "https://github.com/dcodeIO/protobuf.js.git"
+    },
+    {
+      "name": "@protobufjs/eventemitter",
+      "version": "1.1.1",
+      "license": "BSD-3-Clause",
+      "licenses": [
+        "third-party-licenses/protobufjs__eventemitter-1.1.1/LICENSE"
+      ],
+      "repository": "https://github.com/dcodeIO/protobuf.js.git"
+    },
+    {
+      "name": "@protobufjs/fetch",
+      "version": "1.1.1",
+      "license": "BSD-3-Clause",
+      "licenses": [
+        "third-party-licenses/protobufjs__fetch-1.1.1/LICENSE"
+      ],
+      "repository": "https://github.com/dcodeIO/protobuf.js.git"
+    },
+    {
+      "name": "@protobufjs/float",
+      "version": "1.0.2",
+      "license": "BSD-3-Clause",
+      "licenses": [
+        "third-party-licenses/protobufjs__float-1.0.2/LICENSE"
+      ],
+      "repository": "https://github.com/dcodeIO/protobuf.js.git"
+    },
+    {
+      "name": "@protobufjs/path",
+      "version": "1.1.2",
+      "license": "BSD-3-Clause",
+      "licenses": [
+        "third-party-licenses/protobufjs__path-1.1.2/LICENSE"
+      ],
+      "repository": "https://github.com/dcodeIO/protobuf.js.git"
+    },
+    {
+      "name": "@protobufjs/pool",
+      "version": "1.1.0",
+      "license": "BSD-3-Clause",
+      "licenses": [
+        "third-party-licenses/protobufjs__pool-1.1.0/LICENSE"
+      ],
+      "repository": "https://github.com/dcodeIO/protobuf.js.git"
+    },
+    {
+      "name": "@protobufjs/utf8",
+      "version": "1.1.2",
+      "license": "BSD-3-Clause",
+      "licenses": [
+        "third-party-licenses/protobufjs__utf8-1.1.2/LICENSE"
+      ],
+      "repository": "https://github.com/protobufjs/protobuf.js.git"
+    },
+    {
+      "name": "@types/node",
+      "version": "26.6.5",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/types__node-26.6.5/LICENSE"
+      ],
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+    },
+    {
+      "name": "@types/node",
+      "version": "24.19.2",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/types__node-24.19.2/LICENSE"
+      ],
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+    },
+    {
+      "name": "@types/retry",
+      "version": "0.12.0",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/types__retry-0.12.0/LICENSE"
+      ],
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+    },
+    {
+      "name": "agent-base",
+      "version": "7.1.4",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/agent-base-7.1.4/LICENSE"
+      ],
+      "repository": "https://github.com/TooTallNate/proxy-agents.git"
+    },
+    {
+      "name": "base64-js",
+      "version": "1.5.1",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/base64-js-1.5.1/LICENSE"
+      ],
+      "repository": "git://github.com/beatgammit/base64-js.git"
+    },
+    {
+      "name": "bignumber.js",
+      "version": "9.3.1",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/bignumber.js-9.3.1/LICENCE.md"
+      ],
+      "repository": "https://github.com/MikeMcl/bignumber.js.git"
+    },
+    {
+      "name": "buffer-equal-constant-time",
+      "version": "1.0.1",
+      "license": "BSD-3-Clause",
+      "licenses": [
+        "third-party-licenses/buffer-equal-constant-time-1.0.1/LICENSE.txt"
+      ],
+      "repository": "git@github.com:goinstant/buffer-equal-constant-time.git"
+    },
+    {
+      "name": "data-uri-to-buffer",
+      "version": "4.0.1",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/data-uri-to-buffer-4.0.1/LICENSE-from-README.txt"
+      ],
+      "repository": "git://github.com/TooTallNate/node-data-uri-to-buffer.git"
+    },
+    {
+      "name": "debug",
+      "version": "4.4.3",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/debug-4.4.3/LICENSE"
+      ],
+      "repository": "git://github.com/debug-js/debug.git"
+    },
+    {
+      "name": "detect-libc",
+      "version": "2.1.2",
+      "license": "Apache-2.0",
+      "licenses": [
+        "third-party-licenses/detect-libc-2.1.2/LICENSE"
+      ],
+      "repository": "git://github.com/lovell/detect-libc.git"
+    },
+    {
+      "name": "ecdsa-sig-formatter",
+      "version": "1.0.11",
+      "license": "Apache-2.0",
+      "licenses": [
+        "third-party-licenses/ecdsa-sig-formatter-1.0.11/LICENSE"
+      ],
+      "repository": "git+ssh://git@github.com/Brightspace/node-ecdsa-sig-formatter.git"
+    },
+    {
+      "name": "electron",
+      "version": "45.1.0",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/electron-45.1.0/LICENSE"
+      ],
+      "repository": "https://github.com/electron/electron"
+    },
+    {
+      "name": "env-paths",
+      "version": "3.0.0",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/env-paths-3.0.0/license"
+      ],
+      "repository": "sindresorhus/env-paths"
+    },
+    {
+      "name": "extend",
+      "version": "3.0.2",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/extend-3.0.2/LICENSE"
+      ],
+      "repository": "https://github.com/justmoon/node-extend.git"
+    },
+    {
+      "name": "fetch-blob",
+      "version": "3.2.0",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/fetch-blob-3.2.0/LICENSE"
+      ],
+      "repository": "https://github.com/node-fetch/fetch-blob.git"
+    },
+    {
+      "name": "formdata-polyfill",
+      "version": "4.0.10",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/formdata-polyfill-4.0.10/LICENSE"
+      ],
+      "repository": "git+https://jimmywarting@github.com/jimmywarting/FormData.git"
+    },
+    {
+      "name": "gaxios",
+      "version": "7.3.1",
+      "license": "Apache-2.0",
+      "licenses": [
+        "third-party-licenses/gaxios-7.3.1/LICENSE"
+      ],
+      "repository": "https://github.com/googleapis/google-cloud-node.git"
+    },
+    {
+      "name": "gcp-metadata",
+      "version": "8.1.2",
+      "license": "Apache-2.0",
+      "licenses": [
+        "third-party-licenses/gcp-metadata-8.1.2/LICENSE"
+      ],
+      "repository": "https://github.com/googleapis/google-cloud-node-core.git"
+    },
+    {
+      "name": "google-auth-library",
+      "version": "10.9.1",
+      "license": "Apache-2.0",
+      "licenses": [
+        "third-party-licenses/google-auth-library-10.9.1/LICENSE"
+      ],
+      "repository": "https://github.com/googleapis/google-cloud-node.git"
+    },
+    {
+      "name": "google-logging-utils",
+      "version": "1.1.3",
+      "license": "Apache-2.0",
+      "licenses": [
+        "third-party-licenses/google-logging-utils-1.1.3/LICENSE"
+      ],
+      "repository": "https://github.com/googleapis/google-cloud-node-core.git"
+    },
+    {
+      "name": "graceful-fs",
+      "version": "4.2.11",
+      "license": "ISC",
+      "licenses": [
+        "third-party-licenses/graceful-fs-4.2.11/LICENSE"
+      ],
+      "repository": "https://github.com/isaacs/node-graceful-fs"
+    },
+    {
+      "name": "https-proxy-agent",
+      "version": "7.0.6",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/https-proxy-agent-7.0.6/LICENSE"
+      ],
+      "repository": "https://github.com/TooTallNate/proxy-agents.git"
+    },
+    {
+      "name": "json-bigint",
+      "version": "1.0.0",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/json-bigint-1.0.0/LICENSE"
+      ],
+      "repository": "git@github.com:sidorares/json-bigint.git"
+    },
+    {
+      "name": "jwa",
+      "version": "2.0.1",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/jwa-2.0.1/LICENSE"
+      ],
+      "repository": "git://github.com/brianloveswords/node-jwa.git"
+    },
+    {
+      "name": "jws",
+      "version": "4.0.1",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/jws-4.0.1/LICENSE"
+      ],
+      "repository": "git://github.com/brianloveswords/node-jws.git"
+    },
+    {
+      "name": "long",
+      "version": "5.3.2",
+      "license": "Apache-2.0",
+      "licenses": [
+        "third-party-licenses/long-5.3.2/LICENSE"
+      ],
+      "repository": "https://github.com/dcodeIO/long.js.git"
+    },
+    {
+      "name": "lucide-react",
+      "version": "1.63.0",
+      "license": "ISC",
+      "licenses": [
+        "third-party-licenses/lucide-react-1.63.0/LICENSE"
+      ],
+      "repository": "https://github.com/lucide-icons/lucide.git"
+    },
+    {
+      "name": "ms",
+      "version": "2.1.3",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/ms-2.1.3/license.md"
+      ],
+      "repository": "vercel/ms"
+    },
+    {
+      "name": "node-domexception",
+      "version": "1.0.0",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/node-domexception-1.0.0/LICENSE"
+      ],
+      "repository": "git+https://github.com/jimmywarting/node-domexception.git"
+    },
+    {
+      "name": "node-fetch",
+      "version": "3.3.2",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/node-fetch-3.3.2/LICENSE.md"
+      ],
+      "repository": "https://github.com/node-fetch/node-fetch.git"
+    },
+    {
+      "name": "openai",
+      "version": "7.45.1",
+      "license": "Apache-2.0",
+      "licenses": [
+        "third-party-licenses/openai-7.45.1/LICENSE"
+      ],
+      "repository": "github:openai/openai-node"
+    },
+    {
+      "name": "p-retry",
+      "version": "4.6.2",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/p-retry-4.6.2/license"
+      ],
+      "repository": "sindresorhus/p-retry"
+    },
+    {
+      "name": "progress",
+      "version": "2.0.3",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/progress-2.0.3/LICENSE"
+      ],
+      "repository": "git://github.com/visionmedia/node-progress"
+    },
+    {
+      "name": "protobufjs",
+      "version": "7.6.6",
+      "license": "BSD-3-Clause",
+      "licenses": [
+        "third-party-licenses/protobufjs-7.6.6/LICENSE"
+      ],
+      "repository": "protobufjs/protobuf.js"
+    },
+    {
+      "name": "react",
+      "version": "19.3.1",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/react-19.3.1/LICENSE"
+      ],
+      "repository": "https://github.com/react/react.git"
+    },
+    {
+      "name": "react-dom",
+      "version": "19.3.1",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/react-dom-19.3.1/LICENSE"
+      ],
+      "repository": "https://github.com/react/react.git"
+    },
+    {
+      "name": "retry",
+      "version": "0.13.1",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/retry-0.13.1/License"
+      ],
+      "repository": "git://github.com/tim-kos/node-retry.git"
+    },
+    {
+      "name": "safe-buffer",
+      "version": "5.2.1",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/safe-buffer-5.2.1/LICENSE"
+      ],
+      "repository": "git://github.com/feross/safe-buffer.git"
+    },
+    {
+      "name": "scheduler",
+      "version": "0.28.0",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/scheduler-0.28.0/LICENSE"
+      ],
+      "repository": "https://github.com/react/react.git"
+    },
+    {
+      "name": "semver",
+      "version": "7.8.5",
+      "license": "ISC",
+      "licenses": [
+        "third-party-licenses/semver-7.8.5/LICENSE"
+      ],
+      "repository": "git+https://github.com/npm/node-semver.git"
+    },
+    {
+      "name": "sharp",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "licenses": [
+        "third-party-licenses/sharp-0.35.5/LICENSE"
+      ],
+      "repository": "git+https://github.com/lovell/sharp.git"
+    },
+    {
+      "name": "sumchecker",
+      "version": "3.0.1",
+      "license": "Apache-2.0",
+      "licenses": [
+        "third-party-licenses/sumchecker-3.0.1/LICENSE"
+      ],
+      "repository": "git+https://github.com/malept/sumchecker.git"
+    },
+    {
+      "name": "undici",
+      "version": "7.30.1",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/undici-7.30.1/LICENSE"
+      ],
+      "repository": "git+https://github.com/nodejs/undici.git"
+    },
+    {
+      "name": "undici-types",
+      "version": "8.9.0",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/undici-types-8.9.0/LICENSE"
+      ],
+      "repository": "git+https://github.com/nodejs/undici.git"
+    },
+    {
+      "name": "undici-types",
+      "version": "7.24.6",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/undici-types-7.24.6/LICENSE"
+      ],
+      "repository": "git+https://github.com/nodejs/undici.git"
+    },
+    {
+      "name": "web-streams-polyfill",
+      "version": "3.3.3",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/web-streams-polyfill-3.3.3/LICENSE"
+      ],
+      "repository": "git+https://github.com/MattiasBuelens/web-streams-polyfill.git"
+    },
+    {
+      "name": "ws",
+      "version": "8.22.0",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/ws-8.22.0/LICENSE"
+      ],
+      "repository": "git+https://github.com/websockets/ws.git"
+    },
+    {
+      "name": "zod",
+      "version": "4.6.7",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/zod-4.6.7/LICENSE"
+      ],
+      "repository": "git+https://github.com/colinhacks/zod.git"
+    },
+    {
+      "name": "zustand",
+      "version": "5.0.16",
+      "license": "MIT",
+      "licenses": [
+        "third-party-licenses/zustand-5.0.16/LICENSE"
+      ],
+      "repository": "git+https://github.com/pmndrs/zustand.git"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "filename": "ffmpeg-n9.0.2-36-g6882969ce9-win64-lgpl-shared-9.0.zip",
+  "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2026-10-27-18-38/ffmpeg-n9.0.2-36-g6882969ce9-win64-lgpl-shared-9.0.zip",
+  "sha256": "f70e43c4f5670fbbf2dc4eb667b0d6b3743d68386f766c08bb2e0ec3edece398",
+  "ffmpegCommit": "6882969ce9fd2aa6aa1d0008b2bfe1c838aac11d",
+  "buildCommit": "b4a2b1d7cc241786eb8e2b588a7ade40cad48bbd",
+  "buildRepository": "https://github.com/BtbN/FFmpeg-Builds",
+  "release": "autobuild-2026-10-27-18-38",
+  "license": "LGPL-3.0-or-later",
+  "verifiedAt": "2026-10-28T15:44:25.083Z"
+}
